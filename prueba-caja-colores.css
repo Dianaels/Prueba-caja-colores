@@ -4,8 +4,12 @@
 }
 
 body{
-    background-color: cadetblue;
+
 }
+
+
+
+
 h1{
     text-align: center;
     margin: 50px 0;
@@ -17,10 +21,15 @@ h2{
 
 .caja_principal{
    border: 2px solid red;
+   /* background-color: aquamarine; */
     margin: 0 auto;
     display: flex;
+    width: 100%;
     justify-content: center;
     column-gap: 5px;
+    background-image: url(https://img.freepik.com/foto-gratis/estudiantes-universitarios-diferentes-etnias-abarrotando_23-2149891355.jpg?t=st=1728037515~exp=1728041115~hmac=e1b95a3dc1998ae1daea334ecee140f013bd80afbe089f04d59aefba3d4d03a8&w=900);
+    height: 100%;
+    background-repeat: no-repeat;
 }
 
 .cajas_dentro{
